@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "jest.autoRun": "off",
+  "jest.showCoverageOnLoad": true,
+  "jest.coverageFormatter": "GutterFormatter",
+  "cSpell.words": [
+    "autodocs",
+    "credentialate",
+    "Docgen",
+    "Edalex",
+    "fontsource",
+    "hocs",
+    "hookform",
+    "iconify",
+    "Imask",
+    "localstorage",
+    "Parens",
+    "persistor",
+    "Ptnbemind",
+    "Raleway",
+    "reduxjs",
+    "svgs",
+    "switchalt",
+    "tanstack",
+    "testid",
+    "vite"
+  ]
+}

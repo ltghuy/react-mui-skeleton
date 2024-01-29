@@ -1,0 +1,40 @@
+{
+  "name": "React Skeleton",
+  "short_name": "react_mui_skeleton",
+  "description": "Example project using React + Vite + Typescript + MUI + React hook form + React Query + Redux + Redux Toolkit",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2f3640",
+  "icons": [
+    {
+      "src": "favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": [],
+  "shortcuts": [],
+  "categories": [],
+  "dir": "auto",
+  "lang": "en-AU"
+}

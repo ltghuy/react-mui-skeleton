@@ -1,0 +1,30 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.yarn
+
+
+# testing
+/coverage
+
+# build
+/build
+/dist
+
+# documents
+/storybook-static
+/docs
+
+# misc
+.DS_Store
+.env.local
+.env.dev.local
+.env.test.local
+.env.prod.local
+.env
+
+# cache&log
+.eslintcache
+build-storybook.log
+yarn-error.lock

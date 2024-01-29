@@ -1,0 +1,13 @@
+{
+  "name": "React Skeleton",
+  "includeVersion": true,
+  "entryPoints": ["./src/models", "./src/utils"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "exclude": ["./src/**/*.test.ts"],
+  "searchInComments": true,
+  "disableSources": false,
+  "plugin": ["typedoc-plugin-merge-modules"],
+  "mergeModulesRenameDefaults": true,
+  "mergeModulesMergeMode": "project"
+}
