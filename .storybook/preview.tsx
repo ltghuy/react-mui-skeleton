@@ -36,11 +36,11 @@ export const withMuiTheme = (Story, context) => {
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on.*' },
-    controls: {
-      matchers: {
-        color: /(background)$/i,
-      },
-    },
+    // controls: {
+    //   matchers: {
+    //     color: /(background)$/i,
+    //   },
+    // },
   },
   argTypes: {
     onClick: {

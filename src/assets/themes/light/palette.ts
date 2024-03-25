@@ -3,11 +3,11 @@ import { PaletteOptions } from '@mui/material';
 export const palette: PaletteOptions = {
   mode: 'light',
   primary: {
-    main: '#e84118',
+    main: '#7071E8',
     contrastText: '#ffffff',
   },
   secondary: {
-    main: '#788EFF',
+    main: '#C683D7',
     contrastText: '#ffffff',
   },
 };

@@ -1,5 +1,6 @@
 import { muiAppBarTheme } from '@components/core/app-bar/PtnAppBar.theme';
 import { muiButtonTheme } from '@components/core/button/PtnButton.theme';
+import { muiDialogTheme } from '@components/core/dialog/PtnDialogtheme';
 import { muiIconButtonTheme } from '@components/core/icon-button/PtnIconButton.theme';
 import { muiPaperTheme } from '@components/core/paper/PtnPaper.theme';
 import { muiToolbarTheme } from '@components/core/tool-bar/PtnToolbar.theme';
@@ -15,4 +16,5 @@ export const getThemeComponents = (
   ...muiIconButtonTheme(),
   ...muiAppBarTheme(theme),
   ...muiToolbarTheme(theme),
+  ...muiDialogTheme(),
 });

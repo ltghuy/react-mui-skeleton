@@ -27,7 +27,7 @@
     "lint:fix": "eslint --fix .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "storybook build & typedoc --out ./storybook-static/type-docs & npx chromatic -d ./storybook-static --project-token=",
+    "chromatic": "npx chromatic --project-token=chpt_af4c665adb525ee",
     "docs": "typedoc"
   },
   "dependencies": {
@@ -80,7 +80,7 @@
     "@typescript-eslint/parser": "^5.57.0",
     "@vitejs/plugin-react": "^4.0.4",
     "axios-mock-adapter": "^1.21.5",
-    "chromatic": "^6.19.9",
+    "chromatic": "^11.2.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",

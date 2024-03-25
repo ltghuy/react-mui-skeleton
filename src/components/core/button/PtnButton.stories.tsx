@@ -1,34 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react';
-
 import { PtnIcon } from '../icon/PtnIcon';
-
 import { PtnButton } from './PtnButton';
-const arrows = {
-  ArrowUp: <PtnIcon icon='fe:arrow-up' />,
-  ArrowDown: <PtnIcon icon='fe:arrow-down' />,
-  ArrowLeft: <PtnIcon icon='fe:arrow-left' />,
-  ArrowRight: <PtnIcon icon='fe:arrow-right' />,
-};
 
 export default {
   title: 'Core/PtnButton',
   component: PtnButton,
-  argTypes: {
-    startIcon: {
-      options: Object.keys(arrows),
-      mapping: arrows,
-      control: {
-        type: 'select',
-      },
-    },
-    endIcon: {
-      options: Object.keys(arrows),
-      mapping: arrows,
-      control: {
-        type: 'select',
-      },
-    },
-  },
 } as Meta<typeof PtnButton>;
 
 type Story = StoryObj<typeof PtnButton>;

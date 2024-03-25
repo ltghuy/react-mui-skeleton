@@ -5840,14 +5840,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^6.19.9":
-  version: 6.24.1
-  resolution: "chromatic@npm:6.24.1"
+"chromatic@npm:^11.2.0":
+  version: 11.2.0
+  resolution: "chromatic@npm:11.2.0"
+  peerDependencies:
+    "@chromatic-com/cypress": ^0.*.* || ^1.0.0
+    "@chromatic-com/playwright": ^0.*.* || ^1.0.0
+  peerDependenciesMeta:
+    "@chromatic-com/cypress":
+      optional: true
+    "@chromatic-com/playwright":
+      optional: true
   bin:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: b65ad05fa38c54693f670a5c4ad1f104d60ff1023282976135c3a537529829bf15fda877a29278b95385fa8c51971dc4b20f418a77b501c5c18367fcaad39e7c
+  checksum: dbccc584bc145ba91ba56b87ea739feb9fa1d9a308645a4f2b61d697e6891133336a8604c9c269bef32027810a3d6de6d64b38da822e8170feb09bbdc6998b3e
   languageName: node
   linkType: hard
 
@@ -11334,7 +11342,7 @@ __metadata:
     "@vitejs/plugin-react": "npm:^4.0.4"
     axios: "npm:^1.3.4"
     axios-mock-adapter: "npm:^1.21.5"
-    chromatic: "npm:^6.19.9"
+    chromatic: "npm:^11.2.0"
     css-loader: "npm:^6.7.3"
     date-fns: "npm:^2.29.3"
     eslint: "npm:^8.37.0"

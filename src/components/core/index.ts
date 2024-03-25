@@ -18,6 +18,7 @@ export { PtnSvgIcon } from './svg-icon/PtnSvgIcon';
 export { PtnToolbar } from './tool-bar/PtnToolbar';
 export { PtnTooltip } from './tooltip/PtnTooltip';
 export { PtnTypography } from './typography/PtnTypography';
+export { PtnDialog } from './dialog/PtnDialog';
 
 //Types
 export type { PtnAppBarProps } from './app-bar/PtnAppBar';
@@ -37,3 +38,4 @@ export type { PtnSvgIconProps } from './svg-icon/PtnSvgIcon';
 export type { PtnToolbarProps } from './tool-bar/PtnToolbar';
 export type { PtnTooltipProps } from './tooltip/PtnTooltip';
 export type { PtnTypographyProps } from './typography/PtnTypography';
+export type { PtnDialogProps } from './dialog/PtnDialog';
